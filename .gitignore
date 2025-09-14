@@ -72,3 +72,46 @@ __pydantic_cache__/
 .env.local
 .env.*
 .env
+
+# Finance RAG specific
+# API keys and sensitive data
+config.py
+*.key
+*.pem
+
+# Data files
+data/
+*.csv
+*.json
+*.xlsx
+*.db
+
+# Vector stores and embeddings
+vector_store/
+embeddings/
+*.faiss
+*.pkl
+
+# Logs specific to the application
+logs/
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Cache directories
+.cache/
+cache/
+
+# Model files (if any)
+models/
+*.model
+
+# Jupyter notebook outputs
+*.ipynb
+
+# Documentation build
+docs/_build/
+site/
